@@ -1,0 +1,22 @@
+{
+  "name": "parcel-boilerplate",
+  "source": "src/index.html",
+  "author": "Christian Cattani",
+  "license": "MIT",
+  "description": "Parcel con Jquery, Bootstrap para proyectos simples",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel --open",
+    "build": "parcel build --no-content-hash",
+    "clean": "rm -rf dist"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "latest",
+    "parcel": "latest"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.3",
+    "jquery": "^3.6.3"
+  }
+}
