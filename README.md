@@ -1,5 +1,5 @@
   "author": "Christian Cattani"
-  "description": "Parcel con Jquery, Bootstrap para proyectos simples"
+  "description": "Parcel con Sass, Reactjs y Bootstrap para proyectos sencillos"
 
   Instalación:
   npm install o yarn install
