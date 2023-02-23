@@ -16,9 +16,7 @@
     "process": "^0.11.10"
   },
   "dependencies": {
-    "@popperjs/core": "^2.11.6",
     "bootstrap": "^5.2.3",
-    "jquery": "^3.6.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
