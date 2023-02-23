@@ -3,7 +3,7 @@
   "source": "src/index.html",
   "author": "Christian Cattani",
   "license": "MIT",
-  "description": "Parcel con Jquery, Bootstrap para proyectos simples",
+  "description": "Parcel con React, Bootstrap para proyectos simples",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "start": "parcel --open",
