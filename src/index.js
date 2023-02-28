@@ -7,6 +7,6 @@ import $ from "jquery";
 $(function () {
   // bootstrap tooltips
 
-    $('[data-toggle="tooltip"]').tooltip({ trigger: "hover" });
+    // $('[data-toggle="tooltip"]').tooltip({ trigger: "hover" });
 
 });
