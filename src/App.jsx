@@ -1,6 +1,6 @@
 function App() {
   return (
-    <main id="main" className='container'>
+    <main id="main" className="container">
       <section id="home">
         <div className="row pt-20">
           <div className="col-md-12 text-center">
@@ -8,14 +8,13 @@ function App() {
               Hola mundo :)
             </a>
             <p className="pt-5">
-              Este proyecto usa
+              Este proyecto usa&nbsp;
               <span>
-                <a href="https://parceljs.org/" target="_blank" rel="noopener" data-toggle="tooltip" data-placement="top"
-                  title="Visit">
+                <a href="https://parceljs.org/" target="_blank" rel="noopener" data-toggle="tooltip" data-placement="top" title="Visit">
                   Parcel
                 </a>
               </span>
-              que compila scss y js.
+              &nbsp;que compila scss y js.
             </p>
           </div>
         </div>
@@ -23,5 +22,4 @@ function App() {
     </main>
   );
 }
-
 export default App;
