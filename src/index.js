@@ -17,9 +17,14 @@ $(function () {
 });
 
 //REACT
-const root = ReactDOM.createRoot(document.getElementById("root"));
+const el = document.getElementById("root");
+const root = ReactDOM.createRoot(el);
 root.render(
   <React.StrictMode>
-    <App />
+    <div test={el.getAttribute("test")} other={el.getAttribute("other")}>
+      {test} {other}
+    </div>
+
+    {/* <App/> */}
   </React.StrictMode>
 );
